@@ -1,0 +1,8 @@
+kali@kali:~$ sudo tcpdump -i eth0 -c 2 -n
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+16:47:01.123456 IP 192.168.1.10.54321 > 93.184.216.34.80: Flags [S], seq 12345678, win 64240, length 0
+16:47:01.145678 IP 93.184.216.34.80 > 192.168.1.10.54321: Flags [S.], seq 87654321, ack 12345679, win 65535, length 0
+2 packets captured
+2 packets received by filter
+0 packets dropped by kernel

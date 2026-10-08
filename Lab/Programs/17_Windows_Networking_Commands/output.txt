@@ -1,0 +1,40 @@
+C:\Users\Faizze-PI> network_diagnostic.bat
+==========================================================
+  Experiment 17: Windows Networking Commands Execution
+==========================================================
+
+[1] Executing 'ipconfig /all' (Network Interface Configuration):
+---------------------------------------------------------------
+Windows IP Configuration
+   Host Name . . . . . . . . . . . . : Nova-Terminus
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+
+Wireless LAN adapter WiFi:
+   IPv4 Address. . . . . . . . . . . : 10.48.29.251(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.48.29.75
+   DNS Servers . . . . . . . . . . . : 10.48.29.75
+
+[2] Executing 'ping -n 4 127.0.0.1' (ICMP Connectivity Test):
+---------------------------------------------------------------
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
+
+[3] Executing 'tracert -d -h 5 127.0.0.1' (Route Tracing):
+---------------------------------------------------------------
+Tracing route to 127.0.0.1 over a maximum of 5 hops:
+  1    <1 ms    <1 ms    <1 ms  127.0.0.1
+Trace complete.
+
+[4] Executing 'netstat -an' (Active Network Sockets):
+---------------------------------------------------------------
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:24830        0.0.0.0:0              LISTENING
+
+Experiment 17 execution completed successfully.

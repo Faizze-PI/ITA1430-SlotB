@@ -1,0 +1,18 @@
+kali@kali:~$ mkdir Documents
+kali@kali:~$ cp -v file1.txt backup.txt
+'file1.txt' -> 'backup.txt'
+
+kali@kali:~$ cp -v file1.txt Documents/
+'file1.txt' -> 'Documents/file1.txt'
+
+kali@kali:~$ cd Documents
+kali@kali:~/Documents$ ls -la
+total 12
+drwxr-xr-x 2 kali kali 4096 Oct  8 16:35 .
+drwxr-xr-x 3 kali kali 4096 Oct  8 16:35 ..
+-rw-r--r-- 1 kali kali   75 Oct  8 16:35 file1.txt
+
+kali@kali:~/Documents$ cd ..
+kali@kali:~$ ls -l file1.txt backup.txt
+-rw-r--r-- 1 kali kali 75 Oct  8 16:35 backup.txt
+-rw-r--r-- 1 kali kali 75 Oct  8 16:35 file1.txt

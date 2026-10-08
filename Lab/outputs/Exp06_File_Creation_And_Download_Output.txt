@@ -1,0 +1,10 @@
+kali@kali:~$ pwd
+/home/kali/Desktop/ITA1430/06_File_Creation_And_Download
+
+kali@kali:~$ touch sample.txt
+kali@kali:~$ ls -l sample.txt
+-rw-r--r-- 1 kali kali 0 Oct  8 16:34 sample.txt
+
+kali@kali:~$ wget -q -O downloaded_test.txt "https://example.com"
+kali@kali:~$ ls -lh downloaded_test.txt
+-rw-r--r-- 1 kali kali 1.2K Oct  8 16:34 downloaded_test.txt

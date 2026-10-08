@@ -1,0 +1,41 @@
+kali@kali:~$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.6Gi       3.2Gi       2.1Gi       120Mi       2.3Gi       4.0Gi
+Swap:         2.0Gi          0B       2.0Gi
+
+kali@kali:~$ cat fruit_list.txt
+Orange
+Apple
+Banana
+Mango
+Grapes
+Pineapple
+Cherry
+Watermelon
+
+kali@kali:~$ sort fruit_list.txt
+Apple
+Banana
+Cherry
+Grapes
+Mango
+Orange
+Pineapple
+Watermelon
+
+kali@kali:~$ sort -r fruit_list.txt
+Watermelon
+Pineapple
+Orange
+Mango
+Grapes
+Cherry
+Banana
+Apple
+
+kali@kali:~$ history 5
+    1  ls -la
+    2  pwd
+    3  free -h
+    4  sort fruit_list.txt
+    5  history 5

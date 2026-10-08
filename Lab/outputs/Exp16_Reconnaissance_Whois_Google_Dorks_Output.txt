@@ -1,0 +1,19 @@
+kali@kali:~$ whois example.com
+   Domain Name: EXAMPLE.COM
+   Registry Domain ID: 2336799_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.iana.org
+   Registrar: RESERVED-Internet Assigned Numbers Authority
+   Updated Date: 2023-08-14T07:00:00Z
+   Creation Date: 1995-08-14T04:00:00Z
+   Registry Expiry Date: 2024-08-13T04:00:00Z
+   Registrar Abuse Contact Email: abuse@iana.org
+   Name Server: A.IANA-SERVERS.NET
+   Name Server: B.IANA-SERVERS.NET
+
+[Google Dorks Query Demonstrations]
+1. Finding Indexed PDFs:
+   Query: site:example.com filetype:pdf
+2. Finding Directory Indices:
+   Query: site:example.com intitle:"index of /"
+3. Finding Administrative Portals:
+   Query: site:example.com inurl:admin

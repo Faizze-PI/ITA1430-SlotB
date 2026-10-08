@@ -1,0 +1,24 @@
+kali@kali:~$ nmap -T4 -F 192.168.1.1
+Starting Nmap 7.94 ( https://nmap.org ) at 2026-10-08 16:40 IST
+Nmap scan report for 192.168.1.1
+Host is up (0.0018s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.35 seconds
+
+kali@kali:~$ nmap -T5 -F 192.168.1.1
+Starting Nmap 7.94 ( https://nmap.org ) at 2026-10-08 16:40 IST
+Nmap scan report for 192.168.1.1
+Host is up (0.0015s latency).
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.14 seconds

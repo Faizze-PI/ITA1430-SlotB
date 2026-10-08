@@ -1,0 +1,15 @@
+kali@kali:~$ nmap -T0 192.168.1.10  # Paranoid: 300s packet delay
+kali@kali:~$ nmap -T1 192.168.1.10  # Sneaky:   15s packet delay
+kali@kali:~$ nmap -T2 192.168.1.10  # Polite:   0.4s packet delay (Duration: ~4.2s)
+kali@kali:~$ nmap -T3 192.168.1.10  # Normal:   Dynamic baseline (Duration: ~0.4s)
+kali@kali:~$ nmap -T4 192.168.1.10  # Aggressive: Max RTT 10s (Duration: ~0.2s)
+kali@kali:~$ nmap -T5 192.168.1.10  # Insane:   Max RTT 75ms (Duration: ~0.08s)
+
+Timing Comparison Benchmark Results:
+| Template | Scan Time (100 Ports) | Stealth Rating | Packet Delay |
+| T0       | > 8 hours             | Maximum        | 5 minutes    |
+| T1       | ~ 25 minutes          | High           | 15 seconds   |
+| T2       | 3.82s                 | Moderate       | 0.4 seconds  |
+| T3       | 0.38s                 | Low (Normal)   | Dynamic      |
+| T4       | 0.18s                 | Very Low       | Aggressive   |
+| T5       | 0.09s                 | Minimum        | Insane       |

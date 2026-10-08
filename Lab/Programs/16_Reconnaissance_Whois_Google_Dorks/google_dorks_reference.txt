@@ -1,0 +1,23 @@
+# Google Hacking Database (GHDB) / Google Dorks Reference Guide
+# For Educational and Ethical Security Assessment Only
+
+1. Find specific domain sub-pages:
+   site:example.com
+
+2. Discover exposed PDF documents:
+   site:example.com filetype:pdf
+
+3. Find sensitive configuration or environment files:
+   site:example.com filetype:env | filetype:yml | filetype:conf
+
+4. Locate index directory listings (unprotected folders):
+   site:example.com intitle:"index of /"
+
+5. Discover admin or login panels:
+   site:example.com inurl:admin | inurl:login | inurl:dashboard
+
+6. Locate exposed backup database dumps:
+   site:example.com filetype:sql | filetype:bak
+
+7. Search for sensitive terms in page titles:
+   intitle:"restricted access" site:example.com

@@ -1,0 +1,2 @@
+This is a sample file for Experiment 4: Directory and File Display Commands.
+It demonstrates the use of cat to display contents and ls to display directory items.

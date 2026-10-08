@@ -1,0 +1,13 @@
+kali@kali:~$ mkdir EthicalHacking
+kali@kali:~$ ls -la
+total 16
+drwxr-xr-x 3 kali kali 4096 Oct  8 16:32 .
+drwxr-xr-x 5 kali kali 4096 Oct  8 16:30 ..
+drwxr-xr-x 2 kali kali 4096 Oct  8 16:32 EthicalHacking
+-rw-r--r-- 1 kali kali  152 Oct  8 16:30 file.txt
+-rwxr-xr-x 1 kali kali  680 Oct  8 16:30 run_exp04.sh
+-rw-r--r-- 1 kali kali 1024 Oct  8 16:30 README.md
+
+kali@kali:~$ cat file.txt
+This is a sample file for Experiment 4: Directory and File Display Commands.
+It demonstrates the use of cat to display contents and ls to display directory items.

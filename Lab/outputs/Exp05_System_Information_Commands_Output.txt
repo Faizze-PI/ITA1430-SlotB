@@ -1,0 +1,17 @@
+kali@kali:~$ uptime
+ 16:33:15 up  4:12,  1 user,  load average: 0.15, 0.08, 0.02
+
+kali@kali:~$ date
+Thu Oct  8 16:33:15 IST 2026
+
+kali@kali:~$ date "+%Y-%m-%d %H:%M:%S"
+2026-10-08 16:33:15
+
+kali@kali:~$ ls -l file1.txt
+-rw-r--r-- 1 kali kali 64 Oct  8 16:30 file1.txt
+
+kali@kali:~$ mv -v file1.txt file2.txt
+renamed 'file1.txt' -> 'file2.txt'
+
+kali@kali:~$ ls -l file2.txt
+-rw-r--r-- 1 kali kali 64 Oct  8 16:30 file2.txt

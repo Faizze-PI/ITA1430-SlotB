@@ -1,0 +1,20 @@
+Ethical Hacking Laboratory - ITA1430
+Experiment 2: File Viewing Commands Demonstration File
+
+Line 01: Ethical hacking is authorized practice of bypassing system security to identify potential data breaches.
+Line 02: Kali Linux is an open-source Debian-based Linux distribution geared towards various information security tasks.
+Line 03: The 'more' command displays text file contents one full screen at a time.
+Line 04: The 'less' command allows backward as well as forward movement through a text document.
+Line 05: The 'vi' editor is a screen-oriented text editor originally created for Unix operating systems.
+Line 06: Footprinting and Reconnaissance is the first phase of ethical hacking.
+Line 07: Scanning networks and identifying active hosts is the second phase.
+Line 08: Enumeration extracts usernames, machine names, network resources, and services.
+Line 09: Vulnerability Analysis uncovers security weaknesses in target infrastructure.
+Line 10: System Hacking involves gaining access, escalating privileges, and maintaining access.
+Line 11: Nmap is an essential network exploration and security auditing tool.
+Line 12: Wireshark is a packet analyzer used for network troubleshooting and analysis.
+Line 13: Hydra is a fast and flexible network logon password auditing tool.
+Line 14: Nikto is an Open Source web server scanner that tests servers for dangerous files.
+Line 15: Always adhere to legal and authorized scopes during security auditing.
+Line 16: Never scan or test systems without prior written consent.
+Line 17: End of sample file for viewing commands demonstration.

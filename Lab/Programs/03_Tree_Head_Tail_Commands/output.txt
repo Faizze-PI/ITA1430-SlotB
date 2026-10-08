@@ -1,0 +1,40 @@
+kali@kali:~$ head student.txt
+1. Arun
+2. Bala
+3. Kumar
+4. Deepa
+5. Eashwar
+6. Farhan
+7. Gokul
+8. Harini
+9. Imran
+10. Janani
+
+kali@kali:~$ head -n 3 student.txt
+1. Arun
+2. Bala
+3. Kumar
+
+kali@kali:~$ tail student.txt
+11. Karthik
+12. Lavanya
+13. Manoj
+14. Naveen
+15. Oviya
+16. Pradeep
+17. Qadir
+18. Ravi
+19. Suresh
+20. Priya
+
+kali@kali:~$ tail -n 3 student.txt
+18. Ravi
+19. Suresh
+20. Priya
+
+kali@kali:~$ tree -L 2
+.
+├── 03_Tree_Head_Tail_Commands
+│   ├── README.md
+│   ├── run_exp03.sh
+│   └── student.txt

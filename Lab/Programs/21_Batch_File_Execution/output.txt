@@ -1,0 +1,12 @@
+C:\Users\Faizze-PI> sample.bat
+==========================================================
+       Welcome to Ethical Hacking Laboratory (ITA1430)
+==========================================================
+
+Current Date and Time: 07-10-2026 17:46:25.71
+Current Logged-in User: Faizze-PI
+Host Machine Name:     NOVA-TERMINUS
+
+Batch script execution completed successfully.
+
+Press any key to continue . . .

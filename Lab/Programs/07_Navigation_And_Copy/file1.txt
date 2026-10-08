@@ -1,0 +1,1 @@
+Sample data inside file1.txt for Experiment 7 navigation and copy testing.

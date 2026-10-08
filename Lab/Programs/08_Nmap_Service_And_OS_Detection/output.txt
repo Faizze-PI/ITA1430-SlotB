@@ -1,0 +1,30 @@
+kali@kali:~$ nmap -sV -F 192.168.1.10
+Starting Nmap 7.94 ( https://nmap.org ) at 2026-10-08 16:36 IST
+Nmap scan report for 192.168.1.10
+Host is up (0.00045s latency).
+Not shown: 98 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+kali@kali:~$ sudo nmap -O 192.168.1.10
+Starting Nmap 7.94 ( https://nmap.org ) at 2026-10-08 16:36 IST
+Nmap scan report for 192.168.1.10
+Host is up (0.00041s latency).
+Device type: general purpose
+Running: Linux 5.X
+OS CPE: cpe:/o:linux:linux_kernel:5
+OS details: Linux 5.4 - 5.15
+Network Distance: 1 hop
+
+kali@kali:~$ nmap -A 192.168.1.10
+Starting Nmap 7.94 ( https://nmap.org ) at 2026-10-08 16:37 IST
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu
+| ssh-hostkey: 
+|   256 2a:71:22:98:c2:d9:83:8b (ED25519)
+80/tcp   open  http    Apache httpd 2.4.41
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+OS and Service detection performed.

@@ -1,0 +1,18 @@
+kali@kali:~$ users
+kali
+
+kali@kali:~$ tree -L 2
+.
+├── Desktop
+├── Documents
+│   └── lab_notes.txt
+├── Downloads
+└── test_dir
+
+2 directories, 1 file
+
+kali@kali:~$ touch test.txt
+kali@kali:~$ ls -l test.txt
+-rw-r--r-- 1 kali kali 0 Oct  8 16:30 test.txt
+kali@kali:~$ rm -v test.txt
+removed 'test.txt'

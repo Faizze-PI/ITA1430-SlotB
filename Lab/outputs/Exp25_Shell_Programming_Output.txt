@@ -1,0 +1,9 @@
+kali@kali:~$ ./square.sh
+Enter a number:
+5
+Square = 25
+
+kali@kali:~$ ./largest_of_three.sh
+Enter three numbers:
+10 25 15
+25 is largest
